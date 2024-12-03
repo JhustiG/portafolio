@@ -1,8 +1,8 @@
-// re_RDugdJFC_J5F6SLvMBdWN5KVwa7NwwB1B
-import { Resend } from "resend";
+import { Resend } from 'resend';
 import { EmailTemplate } from "@/components/email-template";
 
-const resend = new Resend(process.env.RESEND_API_KEY);
+// Usa la variable de entorno para acceder a la clave de API en producción
+const resend = new Resend(process.env.RESEND_API_KEY_PROD);
 
 export async function POST(req: Request) {
   try {
