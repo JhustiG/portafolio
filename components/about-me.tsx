@@ -29,7 +29,7 @@ const AboutMe = () => {
                                         <Image
                                             src={data.url}
                                             alt="Image"
-                                            width={250} height={400}
+                                            width={250} height={300}
                                             className="w-full h-auto rounded-lg" />
                                     </div>
                                 </CarouselItem>
@@ -51,18 +51,13 @@ const AboutMe = () => {
                             </div>
                         ))}
                     </div>
-                    <p className="my-8"> Soy un desarrollador apasionado que encuentra su mayor
-                        inspiración entre líneas de código y algoritmos desafiantes.
-                        Cuando no estoy inmerso en la programación, disfruto del aire
-                        libre y el deporte, creyendo firmemente en mantener un equilibrio entre
-                        mente y cuerpo. Además, soy un ávido lector, encontrando en los
-                        libros una fuente inagotable de conocimiento y crecimiento personal.
-                        En las redes sociales, comparto mi pasión por la programación, creando contenido
-                        inspirador y educativo para conectar con otros apasionados del desarrollo de software.</p>
+                    <p className="my-8"> 
+                    Soy estudiante del segundo ciclo de Ingeniería Civil en la Universidad Tecnológica del Perú (UTP). Actualmente, curso la asignatura 'Dibujo para Ingeniería'. Este es mi portafolio de proyectos.
+                    </p>
 
-                    <Button>
+                    {/* <Button>
                         <Phone size={20} className="mr-2" />Hablamos
-                    </Button>
+                    </Button> */}
                 </div>
             </div>
         </div>

@@ -1,23 +1,17 @@
-import { BellPlus, BookText, Briefcase, Brush, Code2, CodeSquare, Home, Inbox, Mail, PanelsTopLeft, Phone, UserRound, UsersRound, Wrench } from "lucide-react";
+import { BellPlus, BookText, GraduationCap, Brush, Code2, CodeSquare, Home, Inbox, Mail, PanelsTopLeft, Phone, UserRound, BookMarked, Wrench } from "lucide-react";
 
 export const dataAboutMe = [
     {
         id: 1,
-        name: "Experiencia",
-        icon: <Briefcase />,
-        description: "+4 años de experiencia",
+        name: "Universidad",
+        icon: <GraduationCap />,
+        description: "Universidad Tecnológica del Perú",
     },
     {
         id: 2,
-        name: "Clientes",
-        icon: <UsersRound />,
-        description: "+200 clientes satisfechos",
-    },
-    {
-        id: 3,
-        name: "Proyectos",
-        icon: <Wrench />,
-        description: "+50 completados",
+        name: "Cursos",
+        icon: <BookMarked />,
+        description: "Dibujo para Ingeniería",
     },
 ];
 
@@ -34,17 +28,18 @@ export const itemsNavbar = [
         icon: <UserRound size={20} />,
         link: "#about-me",
     },
+    
+    {
+        id: 4,
+        title: "Target",
+        icon: <CodeSquare size={20} />,
+        link: "#portafolio",
+    },
     {
         id: 3,
         title: "Book",
         icon: <BookText size={20} />,
         link: "#services",
-    },
-    {
-        id: 4,
-        title: "Target",
-        icon: <CodeSquare size={20} />,
-        link: "#portfolio",
     },
     {
         id: 5,
@@ -57,143 +52,98 @@ export const itemsNavbar = [
 export const dataSlider = [
     {
         id: 1,
-        url: "/slider-1.jpg",
+        url: "/slider1.jpg",
     },
     {
         id: 2,
-        url: "/slider-2.jpg",
+        url: "/slider.jpg",
     },
-    {
-        id: 3,
-        url: "/slider-3.jpg",
-    },
-    {
-        id: 4,
-        url: "/slider-4.jpg",
-    },
+    // {
+    //     id: 3,
+    //     url: "/slider-3.jpg",
+    // },
+    // {
+    //     id: 4,
+    //     url: "/slider-4.jpg",
+    // },
 ]
 
 export const dataPortfolio = [
     {
         id: 1,
-        title: "Web Pro",
-        image: "/image-1.jpg",
-        urlGithub: "#!",
-        urlDemo: "#!",
+        title: "Semana 2",
+        image: "/semana2.pdf",  // Ruta del archivo PDF
+        Ingresa: "/semana2.pdf", // Si tienes un repositorio de GitHub
     },
     {
         id: 2,
-        title: "Desarrollo Web Ágil",
-        image: "/image-2.jpg",
-        urlGithub: "#!",
-        urlDemo: "#!",
+        title: "Semana 3",
+        image: "semana3.pdf",  // Ruta del archivo PDF
+        Ingresa: "/semana3.pdf",
     },
     {
         id: 3,
-        title: "Estrategias Web",
-        image: "/image-3.jpg",
-        urlGithub: "#!",
-        urlDemo: "#!",
+        title: "Semana 4",
+        image: "/semana4.pdf",  // Ruta del archivo PDF
+        Ingresa: "/semana4.pdf",
     },
     {
         id: 4,
-        title: "Navegando Ideas Creativas",
-        image: "/image-4.jpg",
-        urlGithub: "#!",
-        urlDemo: "#!",
+        title: "Semana 5",
+        image: "/semana5.pdf",  // Ruta del archivo PDF
+        Ingresa: "/semana5.pdf",
     },
     {
         id: 5,
-        title: "Sitios Web Impactantes",
-        image: "/image-5.jpg",
-        urlGithub: "#!",
-        urlDemo: "#!",
+        title: "Semana 6",
+        image: "/semana6.pdf",  // Ruta del archivo PDF
+        Ingresa: "/semana6.pdf",
     },
     {
         id: 6,
-        title: "Proyectos Web Dinámicos",
-        image: "/image-6.jpg",
-        urlGithub: "#!",
-        urlDemo: "#!",
+        title: "Semana 7",
+        image: "/semana7.pdf",  // Ruta del archivo PDF
+        Ingresa: "/semana7.pdf",
     },
+    {
+        id: 7,
+        title: "Semana 8",
+        image: "/semana8.pdf",  // Ruta del archivo PDF
+        Ingresa: "/semana8.pdf",
+    },
+    {
+        id: 8,
+        title: "Semana 9",
+        image: "/semana9.pdf",  // Ruta del archivo PDF
+        Ingresa: "/semana9.pdf",
+    }
 ];
 
 
-export const dataExperience = [
+
+export const dataContact = [
     {
         id: 1,
-        title: "Frontend Development  💄",
-        experience: [
-            {
-                name: "HTML",
-                subtitle: "Experimentado",
-                value: 80,
-            },
-            {
-                name: "CSS",
-                subtitle: "Intermedio",
-                value: 75,
-            },
-            {
-                name: "JavaScript",
-                subtitle: "Experimentado",
-                value: 60,
-            },
-            {
-                name: "Tailwind CSS",
-                subtitle: "Experimentado",
-                value: 30,
-            },
-            {
-                name: "React",
-                subtitle: "Experimentado",
-                value: 60,
-            },
-            {
-                name: "Bootstrap",
-                subtitle: "Basic",
-                value: 50,
-            },
-        ],
+        title: "Teléfono",
+        subtitle: "+51 932 596 142",
+        link: "tel:+51 932 596 142",
+        icon: <Phone />,
     },
+    // {
+    //     id: 2,
+    //     title: "Github",
+    //     subtitle: "github.com/ratasi",
+    //     link: "github.com/ratasi",
+    //     icon: <Code2 />,
+    // },
     {
         id: 2,
-        title: "Backend Development  🥷",
-        experience: [
-            {
-                name: "Node JS",
-                subtitle: "Experimentado",
-                value: 80,
-            },
-            {
-                name: "Mongo DB",
-                subtitle: "Intermedio",
-                value: 75,
-            },
-            {
-                name: "Python",
-                subtitle: "Basic",
-                value: 60,
-            },
-            {
-                name: "MySQL",
-                subtitle: "Experimentado",
-                value: 60,
-            },
-            {
-                name: "PHP",
-                subtitle: "Experimentado",
-                value: 60,
-            },
-            {
-                name: "Django",
-                subtitle: "Basic",
-                value: 60,
-            },
-        ],
+        title: "Email",
+        subtitle: "U24216777@utp.edu.pe",
+        link: "U24216777@utp.edu.pe",
+        icon: <Inbox />,
     },
 ];
-
 
 export const dataServices = [
     {
@@ -279,75 +229,5 @@ export const dataServices = [
                 name: "Diseño responsive para adaptarse a diferentes dispositivos",
             },
         ],
-    },
-];
-
-
-export const dataContact = [
-    {
-        id: 1,
-        title: "Teléfono",
-        subtitle: "+34 677 66 66 33",
-        link: "tel:+34677666633",
-        icon: <Phone />,
-    },
-    {
-        id: 2,
-        title: "Github",
-        subtitle: "github.com/ratasi",
-        link: "github.com/ratasi",
-        icon: <Code2 />,
-    },
-    {
-        id: 3,
-        title: "Email",
-        subtitle: "email@email.com",
-        link: "mailto:test@test.com",
-        icon: <Inbox />,
-    },
-];
-
-export const dataTestimonials = [
-    {
-        id: 1,
-        name: "George Snow",
-        description:
-            "¡Increíble plataforma! Los testimonios aquí son genuinos y me han ayudado a tomar decisiones informadas. ¡Altamente recomendado!",
-        imageUrl: "/profile-1.jpeg",
-    },
-    {
-        id: 2,
-        name: "Juan Pérez",
-        description:
-            "Me encanta la variedad de testimonios disponibles en esta página. Es inspirador ver cómo otras personas han superado desafíos similares a los míos. ¡Gracias por esta invaluable fuente de motivación!",
-        imageUrl: "/profile-2.jpeg",
-    },
-    {
-        id: 3,
-        name: "María García",
-        description:
-            "Excelente recurso para obtener opiniones auténticas sobre diferentes productos y servicios. Me ha ayudado mucho en mis compras en línea. ¡Bravo por este sitio!",
-        imageUrl: "/profile-3.jpeg",
-    },
-    {
-        id: 4,
-        name: "Laura Snow",
-        description:
-            "¡Qué descubrimiento tan fantástico! Los testimonios aquí son honestos y detallados. Me siento más seguro al tomar decisiones después de leer las experiencias compartidas por otros usuarios.",
-        imageUrl: "/profile-3.jpeg",
-    },
-    {
-        id: 5,
-        name: "Carlos Sánchez",
-        description:
-            "Una joya en la web. Los testimonios son fáciles de encontrar y están bien organizados. ¡Definitivamente mi destino número uno cuando necesito referencias confiables!",
-        imageUrl: "/profile-2.jpeg",
-    },
-    {
-        id: 6,
-        name: "Antonio Martínez",
-        description:
-            "¡Fantástico recurso para aquellos que buscan validación antes de tomar decisiones importantes! Los testimonios aquí son veraces y realmente útiles. ¡Gracias por simplificar mi proceso de toma de decisiones!",
-        imageUrl: "/profile-3.jpeg",
     },
 ];
