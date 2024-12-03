@@ -52,8 +52,9 @@ const AboutMe = () => {
                         ))}
                     </div>
                     <p className="my-8">
-  Soy estudiante del segundo ciclo de Ingeniería Civil en la Universidad Tecnológica del Perú (UTP). Actualmente, curso la asignatura &apos;Dibujo para Ingeniería&apos;. Este es mi portafolio de proyectos.
-</p>
+                        Soy estudiante del segundo ciclo de Ingeniería Civil en la Universidad Tecnológica del Perú (UTP). Actualmente, curso la asignatura &apos;Dibujo para Ingeniería&apos;. Este es mi portafolio de proyectos.
+                    </p>
+
 
 
                     {/* <Button>
