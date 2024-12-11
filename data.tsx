@@ -161,13 +161,13 @@ export const dataPortfolio = [
     },
     {
         id: 16,
-        title: "IMG 1",
+        title: "Imagen 1",
         image: "/img1.jpeg",  // Ruta del archivo PDF
         Ingresa: "/img1.jpeg",
     },
     {
         id: 17,
-        title: "IMG 2",
+        title: "Imagen 2",
         image: "/img2.jpeg",  // Ruta del archivo PDF
         Ingresa: "/img2.jpeg",
     },
