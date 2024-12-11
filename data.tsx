@@ -117,7 +117,7 @@ export const dataPortfolio = [
         image: "/semana9.pdf",  // Ruta del archivo PDF
         Ingresa: "/semana9.pdf",
     },
-    },{
+    {
         id: 15,
         title: "Semana 10",
         image: "/semana10.pdf",  // Ruta del archivo PDF
