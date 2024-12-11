@@ -117,14 +117,20 @@ export const dataPortfolio = [
         image: "/semana9.pdf",  // Ruta del archivo PDF
         Ingresa: "/semana9.pdf",
     },
-    {
+    },{
         id: 15,
+        title: "Semana 10",
+        image: "/semana10.pdf",  // Ruta del archivo PDF
+        Ingresa: "/semana10.pdf",
+    },
+    {
+        id: 13,
         title: "Semana 11",
         image: "/semana11.pdf",  // Ruta del archivo PDF
         Ingresa: "/semana11.pdf",
     },
     {
-        id: 16,
+        id: 14,
         title: "Semana 12",
         image: "/semana12.pdf",  // Ruta del archivo PDF
         Ingresa: "/semana12.pdf",
@@ -152,7 +158,19 @@ export const dataPortfolio = [
         title: "Semana 16",
         image: "/semana16.pdf",  // Ruta del archivo PDF
         Ingresa: "/semana16.pdf",
-    }
+    },
+    {
+        id: 16,
+        title: "IMG 1",
+        image: "/img1.jpeg",  // Ruta del archivo PDF
+        Ingresa: "/img1.jpeg",
+    },
+    {
+        id: 17,
+        title: "IMG 2",
+        image: "/img2.jpeg",  // Ruta del archivo PDF
+        Ingresa: "/img2.jpeg",
+    },
 ];
 
 
